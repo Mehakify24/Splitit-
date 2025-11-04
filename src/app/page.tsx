@@ -26,12 +26,12 @@ export default function HomePage() {
             <Button asChild>
               <Link href="/groups">{t('Homepage.button.groups')}</Link>
             </Button>
-            <Button asChild variant="secondary">
+            {/* <Button asChild variant="secondary">
               <Link href="https://github.com/spliit-app/spliit">
                 <Github className="w-4 h-4 mr-2" />
                 {t('Homepage.button.github')}
               </Link>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

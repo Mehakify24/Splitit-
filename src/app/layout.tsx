@@ -119,7 +119,7 @@ function Content({ children }: { children: React.ReactNode }) {
               />
             </Link>
           </div>
-          <div className="flex flex-col space-y a--no-underline-text-white">
+          {/* <div className="flex flex-col space-y a--no-underline-text-white">
             <span>{t('Footer.madeIn')}</span>
             <span>
               {t.rich('Footer.builtBy', {
@@ -139,7 +139,7 @@ function Content({ children }: { children: React.ReactNode }) {
                 ),
               })}
             </span>
-          </div>
+          </div> */}
         </div>
       </footer>
       <Toaster />
